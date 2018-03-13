@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TimeTracker</string>
+    <string name="LabelStartTime">Startzeit:</string>
+    <string name="LabelStoppTime">Endzeit:</string>
+    <string name="ButtonStart">Starten</string>
+    <string name="ButtonEnd">Beenden</string>
+    <string name="MenuItemListData">Auflistung</string>
+    <string name="EmptyValuePlaceholder" translatable="false">---</string>
+    <string name="DateParseErrorMessage" translatable="false">PARSE ERROR</string>
+    <string name="ColumnHeaderStartTime">Startzeit</string>
+    <string name="ColumnHeaderEndTime">Endzeit</string>
+    <string name="TimeDataActivityTitle">Auflistung</string>
+    <string name="DeleteMenuItem">Löschen</string>
+    <string name="DialogTitleDeleteItem">Datensatz löschen</string>
+    <string name="DialogMessageDeleteItem">Wollen Sie den Datensatz unwiederruflich löschen?</string>
+    <string name="DeleteButton">Löschen</string>
+    <string name="CancelButton">Abbrechen</string>
+    <string name="ExportMenuItem">Export</string>
+    <string name="ExportDialogTitle">Export ...</string>
+    <string name="ExportDialogMessage">Daten werden exportiert!</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/ActivityVerticalPadding"
+    android:paddingEnd="@dimen/ActivityHorizontalPadding"
+    android:paddingLeft="@dimen/ActivityHorizontalPadding"
+    android:paddingRight="@dimen/ActivityHorizontalPadding"
+    android:paddingStart="@dimen/ActivityHorizontalPadding"
+    android:paddingTop="@dimen/ActivityVerticalPadding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/StartTimeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ColumnHeaderStartTime"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/EndTimeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ColumnHeaderEndTime"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/HorizontalRuleHeight"
+        android:background="@color/colorAccent"/>
+
+    <ListView
+        android:id="@+id/DataList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

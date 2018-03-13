@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Tracking</string>
+    <string name="ButtonEnd">End</string>
+    <string name="ButtonStart">Start</string>
+    <string name="LabelEndTime">Start Time:</string>
+    <string name="LabelStartTime">End Time:</string>
+    <string name="MenuItemListData">Data List</string>
+    <string name="ColumnHeaderEndTime">End Time</string>
+    <string name="ColumnHeaderStartTime">Start Time</string>
+    <string name="TimeDataActivityTitle">Data List</string>
+</resources>

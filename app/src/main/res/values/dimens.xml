@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ActivityVerticalPadding">8dp</dimen>
+    <dimen name="ActivityHorizontalPadding">8dp</dimen>
+    <dimen name="RowVerticalPadding">8dp</dimen>
+    <dimen name="RowHorizontalPadding">4dp</dimen>
+    <dimen name="HorizontalRuleHeight">4dp</dimen>
+</resources>
